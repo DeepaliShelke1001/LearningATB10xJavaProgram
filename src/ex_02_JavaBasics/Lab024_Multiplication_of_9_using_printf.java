@@ -5,15 +5,24 @@ public class Lab024_Multiplication_of_9_using_printf {
     public static void main(String[] args) {
 
         int d = 9;
-        System.out.print("9*1 = "+d*1+"\n");
-        System.out.print("9*2 = "+d*2+"\n");
-        System.out.print("9*3 = "+d*3+"\n");
-        System.out.print("9*4 = "+d*4+"\n");
-        System.out.print("9*5 = "+d*5+"\n");
-        System.out.print("9*6 = "+d*6+"\n");
-        System.out.print("9*7 = "+d*7+"\n");
-        System.out.print("9*8 = "+d*8+"\n");
-        System.out.print("9*9 = "+d*9+"\n");
-        System.out.print("9*10 = "+d*10+"\n");
+
+        System.out.println("Table of 9 using printf method and table should be printed on new line");
+        // First way : Using printf and new line
+        System.out.printf("%d*1=%d\n",d,d*1);
+        //Second way : printf and println on different line
+        System.out.printf("%d*2=%d",d,d*2);
+        System.out.println();
+        //third way : printf and println one same line
+        System.out.printf("%d*3=%d",d,d*3).println();
+
+        System.out.printf("%d*4=%d",d,d*4).println();
+        System.out.printf("%d*5=%d",d,d*5).println();
+        System.out.printf("%d*6=%d",d,d*6).println();
+        System.out.printf("%d*7=%d",d,d*7).println();
+        System.out.printf("%d*8=%d",d,d*8).println();
+        System.out.printf("%d*9=%d",d,d*9).println();
+        System.out.printf("%d*10=%d",d,d*10).println();
     }
 }
+
+
