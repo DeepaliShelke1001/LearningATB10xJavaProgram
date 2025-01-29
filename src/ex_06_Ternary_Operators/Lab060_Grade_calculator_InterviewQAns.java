@@ -14,7 +14,7 @@ public class Lab060_Grade_calculator_InterviewQAns {
         //D: 60-69
         //F: 0-59
 
-        int marks = 21;
+        int marks = 99;
         String grade = (marks >= 90 && marks <=100)? "Grade A" : (marks >= 80 && marks <=89)? "Grade B" : (marks >= 70 && marks <=79)? "Grade C" : (marks >= 60 && marks <=69)? "Grade D" : (marks >= 0 && marks <=59)? "Grade F" : "Not Valid";
 
         System.out.printf("Your grade is %s",grade);
