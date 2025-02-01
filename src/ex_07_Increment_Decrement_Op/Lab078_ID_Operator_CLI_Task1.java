@@ -7,8 +7,9 @@ public class Lab078_ID_Operator_CLI_Task1 {
 
         String name = args[0];
         int age = Integer.parseInt(args[1]);
-        int salary = Integer.parseInt(args[2]);
+        double salary = Double.parseDouble(args[2]);
 
+        System.out.println("********* User Information *****");
         System.out.println("Name: "+args[0]);
         System.out.println("Age: "+args[1]);
         System.out.println("Salary: "+args[2]);
