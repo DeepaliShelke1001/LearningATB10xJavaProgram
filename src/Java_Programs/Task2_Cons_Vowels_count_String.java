@@ -37,6 +37,7 @@ public class Task2_Cons_Vowels_count_String {
         System.out.println("In the given string total vowels are :" + vowelsCount);
         System.out.println("In the given string total consonants are :" + consonantsCount);
 
+        sc.close();
         //3. Edge cases
         //a. if user enters a UpperCase string then it will be count as consonants because else condition will be executed.
         // so we can convert entered string into a lowercase first.

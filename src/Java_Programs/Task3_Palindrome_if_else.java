@@ -28,6 +28,6 @@ public class Task3_Palindrome_if_else {
         } else {
             System.out.println("String is not Palindrome");
         }
-
+        sc.close();
     }
 }
