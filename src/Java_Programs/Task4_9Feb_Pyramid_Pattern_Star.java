@@ -27,5 +27,5 @@ public class Task4_9Feb_Pyramid_Pattern_Star {
             }
             System.out.println();
         }
-}
     }
+}
