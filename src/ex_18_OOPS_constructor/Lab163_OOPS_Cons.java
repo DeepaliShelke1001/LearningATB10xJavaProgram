@@ -15,6 +15,9 @@ public class Lab163_OOPS_Cons {
 
 class A {
     //Default Constructor. Constructor calls automatically when the object creation is done
+    //Constructor name should be same as Class
+    //Constructor returns nothing so we cannot add public/private/Void retrun type
+
     A() {
         System.out.println("I want to read a CSV File");
         System.out.println("Open the Page before loading the scripts");

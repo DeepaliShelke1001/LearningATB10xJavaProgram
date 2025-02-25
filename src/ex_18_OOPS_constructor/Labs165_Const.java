@@ -9,7 +9,7 @@ public class Labs165_Const {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the model Name for Tesla");
         String model_name = sc.next();
-        Cars2 tesla = new Cars2(model_name,2024);
+        Cars2 tesla = new Cars2(model_name, 2024);
         System.out.println(tesla.model);
         System.out.println(tesla.year);
 

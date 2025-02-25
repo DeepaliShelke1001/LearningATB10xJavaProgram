@@ -12,6 +12,7 @@ Cars2(){
     System.out.println("DC");
 }
 
+//Para constructor
 Cars2(String model_name, int year1){
     this.model =model_name;
     this.year = year1;
